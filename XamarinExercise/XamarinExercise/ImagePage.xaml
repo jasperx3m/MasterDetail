@@ -104,6 +104,95 @@
                     </Image>
                 </AbsoluteLayout>
 
+                <AbsoluteLayout Grid.Row="2" 
+                                Grid.Column="1">
+                    <ActivityIndicator 
+                        AbsoluteLayout.LayoutBounds="0.5,0.5,1,1"
+                        AbsoluteLayout.LayoutFlags="All"
+                        IsRunning="{Binding Source={x:Reference image4}, Path=IsLoading}"
+                        Color="White"/>
+                    <Image x:Name="image4"
+                           Aspect="AspectFill"
+                           HorizontalOptions="CenterAndExpand"
+	                       VerticalOptions ="CenterAndExpand">
+                        <Image.Source>
+                            <UriImageSource Uri="https://tinyurl.com/y697jezg" 
+			                    CachingEnabled="False"/>
+                        </Image.Source>
+                    </Image>
+                </AbsoluteLayout>
+
+                <AbsoluteLayout Grid.Row="2" 
+                                Grid.Column="2">
+                    <ActivityIndicator 
+                        AbsoluteLayout.LayoutBounds="0.5,0.5,1,1"
+                        AbsoluteLayout.LayoutFlags="All"
+                        IsRunning="{Binding Source={x:Reference image5}, Path=IsLoading}"
+                        Color="White"/>
+                    <Image x:Name="image5"
+                           Aspect="AspectFill"
+                           HorizontalOptions="CenterAndExpand"
+	                       VerticalOptions ="CenterAndExpand">
+                        <Image.Source>
+                            <UriImageSource Uri="https://tinyurl.com/y5hdz9l6" 
+			                    CachingEnabled="False"/>
+                        </Image.Source>
+                    </Image>
+                </AbsoluteLayout>
+
+                <AbsoluteLayout Grid.Row="3" 
+                                Grid.Column="0">
+                    <ActivityIndicator 
+                        AbsoluteLayout.LayoutBounds="0.5,0.5,1,1"
+                        AbsoluteLayout.LayoutFlags="All"
+                        IsRunning="{Binding Source={x:Reference image6}, Path=IsLoading}"
+                        Color="White"/>
+                    <Image x:Name="image6"
+                           Aspect="AspectFill"
+                           HorizontalOptions="CenterAndExpand"
+	                       VerticalOptions ="CenterAndExpand">
+                        <Image.Source>
+                            <UriImageSource Uri="https://tinyurl.com/y6t2pfdv" 
+			                    CachingEnabled="False"/>
+                        </Image.Source>
+                    </Image>
+                </AbsoluteLayout>
+
+                <AbsoluteLayout Grid.Row="3" 
+                                Grid.Column="1">
+                    <ActivityIndicator 
+                        AbsoluteLayout.LayoutBounds="0.5,0.5,1,1"
+                        AbsoluteLayout.LayoutFlags="All"
+                        IsRunning="{Binding Source={x:Reference image7}, Path=IsLoading}"
+                        Color="White"/>
+                    <Image x:Name="image7"
+                           Aspect="AspectFill"
+                           HorizontalOptions="CenterAndExpand"
+	                       VerticalOptions ="CenterAndExpand">
+                        <Image.Source>
+                            <UriImageSource Uri="https://tinyurl.com/y2nt9kt9" 
+			                    CachingEnabled="False"/>
+                        </Image.Source>
+                    </Image>
+                </AbsoluteLayout>
+
+                <AbsoluteLayout Grid.Row="3" 
+                                Grid.Column="2">
+                    <ActivityIndicator 
+                        AbsoluteLayout.LayoutBounds="0.5,0.5,1,1"
+                        AbsoluteLayout.LayoutFlags="All"
+                        IsRunning="{Binding Source={x:Reference image8}, Path=IsLoading}"
+                        Color="White"/>
+                    <Image x:Name="image8"
+                           Aspect="AspectFill"
+                           HorizontalOptions="CenterAndExpand"
+	                       VerticalOptions ="CenterAndExpand">
+                        <Image.Source>
+                            <UriImageSource Uri="https://tinyurl.com/y3bydso9" 
+			                    CachingEnabled="False"/>
+                        </Image.Source>
+                    </Image>
+                </AbsoluteLayout>
 
             </Grid>
         </StackLayout>
