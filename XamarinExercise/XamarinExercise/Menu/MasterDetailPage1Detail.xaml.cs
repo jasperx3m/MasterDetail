@@ -7,18 +7,14 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace XamarinExercise
+namespace XamarinExercise.Menu
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class LoginPage : ContentPage
+    public partial class MasterDetailPage1Detail : ContentPage
     {
-        public LoginPage()
+        public MasterDetailPage1Detail()
         {
             InitializeComponent();
-        }
-        private async void OnLoginClicked(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new MainPage());
         }
     }
 }

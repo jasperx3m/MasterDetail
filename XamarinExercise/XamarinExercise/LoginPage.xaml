@@ -4,6 +4,7 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
+             Title="Login Page"
              x:Class="XamarinExercise.LoginPage">
     <ContentPage.Content>
         
@@ -26,7 +27,8 @@
 
                 <Button Text="Login"
                         TextColor="White"
-                        BackgroundColor="#1dabf0"/>
+                        BackgroundColor="#1dabf0"
+                        Clicked="OnLoginClicked"/>
 
                 <Button Text="Register"
                         TextColor="White"

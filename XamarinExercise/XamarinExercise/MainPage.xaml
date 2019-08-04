@@ -1,11 +1,72 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="XamarinExercise.MainPage">
-    <ScrollView>
+
+    <MasterDetailPage.Master>
+
+        <ContentPage Title="Menu" BackgroundColor="Gold">
+
+            <StackLayout Orientation="Vertical">
+
+                <StackLayout>
+                    <!--<Label Text="{Binding Header}"/>-->
+                    <Image Source="http://hd.wallpaperswide.com/thumbs/a_leaf_on_the_ground-t2.jpg" Aspect="Fill"/>
+                    <!--<Label Text="{Binding Footer}"/>-->
+                </StackLayout>
+
+                <ListView x:Name="navigationDrawerList"
+                      RowHeight="55"
+                      SeparatorVisibility="Default"
+                      BackgroundColor="Green"
+                      ItemSelected="OnMenuItemSelected">
+
+                    <ListView.ItemTemplate>
+
+                        <DataTemplate>
+
+                            <ViewCell>
+
+                                <StackLayout VerticalOptions="FillAndExpand"
+                                         Orientation="Horizontal"
+                                         Padding="20,10,0,10"
+                                         Spacing="20">
+                                    <Image Source="{Binding Icon}"
+                                       WidthRequest="40"
+                                       HeightRequest="40"
+                                       VerticalOptions="Start"/>
+                                    <Label Text="{Binding Title}"
+                                       FontSize="Small"
+                                       VerticalOptions="End"
+                                       TextColor="Black"/>
+
+                                </StackLayout>
+
+                            </ViewCell>
+
+                        </DataTemplate>
+
+                    </ListView.ItemTemplate>
+
+                </ListView>
+
+            </StackLayout>
+
+        </ContentPage>
+
+    </MasterDetailPage.Master>
+
+    <MasterDetailPage.Detail>
+
+        <NavigationPage>
+
+        </NavigationPage>
+
+    </MasterDetailPage.Detail>
+    <!--<ScrollView>
         <StackLayout Padding="20,20,20,20">
 
             <Button x:Name="ex1"
@@ -45,8 +106,8 @@
                 Clicked="Ex9_Clicked"/>
 
         </StackLayout>
-    </ScrollView>
-    
-    
+    </ScrollView>-->
 
-</ContentPage>
+
+
+</MasterDetailPage>

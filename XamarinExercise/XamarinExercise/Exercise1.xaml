@@ -4,6 +4,7 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
+             Title="Quote Page"
              x:Class="XamarinExercise.Exercise1">
     <ContentPage.Content>
         <StackLayout Padding="20,20,20,20">

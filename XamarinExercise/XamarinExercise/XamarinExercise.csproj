@@ -54,8 +54,56 @@
     <EmbeddedResource Update="CalculatorPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Update="Menu\MasterDetailPage1.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Menu\MasterDetailPage1Detail.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Menu\MasterDetailPage1Master.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="RelativeLayoutPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="AbsoluteLayoutPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="CalculatorPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="DialerPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Exercise1.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Exercise2.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="ImagePage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="InstagramPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="LoginPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Page1.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="RelativeLayoutPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
   </ItemGroup>
 </Project>
